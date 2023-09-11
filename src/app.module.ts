@@ -29,7 +29,7 @@ import { APP_INTERCEPTOR } from '@nestjs/core';
     AppService,
     {
       provide: APP_INTERCEPTOR,
-      useClass: I18nLanguageInterceptor, // Добавьте I18nInterceptor как глобальный интерцептор
+      useClass: I18nLanguageInterceptor,
     },
   ],
 })
